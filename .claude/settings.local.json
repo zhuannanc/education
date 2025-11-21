@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(cat:*)",
+      "Bash(npm run build:*)",
+      "Bash(PORT=4000 node:*)",
+      "Bash(netstat:*)",
+      "Bash(ss:*)",
+      "Bash(curl:*)",
+      "Bash(kill:*)",
+      "Bash(npm --prefix /home/devbox/project/growark/server list:*)",
+      "Bash(timeout 5 node:*)",
+      "Bash(nohup node:*)",
+      "Bash(server.log)",
+      "Bash(node:*)",
+      "Bash(find . -type f ( -name \"*.ts\" -o -name \"*.tsx\" -o -name \"*.js\" ) -path \"*/growark/*\" ! -path \"*/node_modules/*\" -exec grep -l \"const.*students\\|Student\\[\\]\" {} ;)",
+      "Bash(python3:*)",
+      "Bash(chmod:*)",
+      "Bash(timeout:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(rm:*)",
+      "Bash(npm prune:*)",
+      "Bash(env:*)",
+      "Bash(kubectl get:*)",
+      "Bash(pkill:*)",
+      "Bash(docker build:*)",
+      "Bash(test:*)",
+      "Bash(npm run:*)",
+      "Bash(bash:*)",
+      "Bash(git init:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
